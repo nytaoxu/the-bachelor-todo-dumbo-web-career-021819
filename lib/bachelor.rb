@@ -54,7 +54,7 @@ def get_average_age_for_season(data, season)
     if season_str == season
       players_array.each do |player|
         sum += player["age"].to_i
-        count += 1
+        number += 1
       end
     end
   end
