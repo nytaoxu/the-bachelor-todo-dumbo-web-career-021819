@@ -24,9 +24,10 @@ end
 
 def count_contestants_by_hometown(data, hometown)
   # code here
+  result = []
   data.each do |season_str, players_array|
     players_array.each do |player|
-      
+      if player[]
     end
   end
 end
