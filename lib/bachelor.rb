@@ -15,7 +15,7 @@ def get_contestant_name(data, occupation)
   # code here
   data.each do |season_str, players_array|
     players_array.each do |player|
-      
+      if player[:occupation]
     end
   end
 end
