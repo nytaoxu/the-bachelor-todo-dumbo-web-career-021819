@@ -4,7 +4,7 @@ def get_first_name_of_season_winner(data, season)
     if season_str == season
       players_array.each do |player|
         if player["status"].downcase == "winner"
-          return player[].split(" ")[0]
+          return player["name"].split(" ")[0]
         end
       end
     end
